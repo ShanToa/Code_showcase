@@ -45,6 +45,8 @@ def iou(y_true, y_pred, threshold=0.5):
 
 ## Custom U-net model
 
+This function, `simple_unet_model`, constructs and compiles a U-Net model designed for image segmentation tasks. The U-Net architecture is particularly effective in applications such as biomedical image segmentation but can also be applied to various other segmentation problems.
+
 ```python
 def simple_unet_model(IMG_HEIGHT: int, IMG_WIDTH: int, IMG_CHANNELS: int)
     """
